@@ -2,5 +2,5 @@
   become: true
   tasks:
     - name: Print OS info
-      ansible.builtin.yum:
-        name: httpd
+      ansible.builtin.package:
+        name: apache2
