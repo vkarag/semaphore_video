@@ -1,4 +1,4 @@
-- hosts: centos
+- hosts: arch_linux
   become: true
   tasks:
     - name: Print OS info
